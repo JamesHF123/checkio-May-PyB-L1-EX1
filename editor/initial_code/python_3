@@ -1,4 +1,4 @@
-def sum_two(a: int, b: int) -> int:
+def sum_two(a, b) -> int:
     # your code here
     return 0
 
