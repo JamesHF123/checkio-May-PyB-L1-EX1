@@ -38,7 +38,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "firstname",
+            "python": "name",
             "js": "sumTwo"
         },
         cover_code={
