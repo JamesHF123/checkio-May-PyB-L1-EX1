@@ -8,6 +8,4 @@ if __name__ == '__main__':
     firstname = input()
     print(name(firstname))
 
-    # These "asserts" are used for self-checking and not for an auto-testing
-    assert name("Bob") == "Hello Bob"
-    print("Coding complete? Click 'Check' to earn cool rewards!")
+
