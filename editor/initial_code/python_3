@@ -1,5 +1,6 @@
 def name(firstname):
-    return ("Hello " + firstname) # change
+    greeting = "Hello " + firstname
+    return greeting
 
 
 if __name__ == '__main__':
