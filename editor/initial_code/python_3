@@ -1,13 +1,12 @@
-def sum_two(a, b) -> int:
-    # your code here
-    return 0
+def name(firstname):
+    return ("Hello " + firstname)
 
 
 if __name__ == '__main__':
-    print("Example:")
-    print(sum_two(3, 2))
+    print("What is your name")
+    firstname = input()
+    name(firstname)
 
     # These "asserts" are used for self-checking and not for an auto-testing
-    assert sum_two(3, 2) == 5
-    assert sum_two(5, 7) == 12
+    assert name("Bob") == "Hello Bob"
     print("Coding complete? Click 'Check' to earn cool rewards!")
